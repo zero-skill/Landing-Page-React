@@ -1,5 +1,4 @@
 import React from "react";
-import React from 'react';
 function Footer() {
     return (
 
@@ -14,7 +13,6 @@ function Footer() {
     );
 }
 
-export default Jumbotron;
+export default Footer;
 
 
-ReactDOM.render(<Footer />, document.querySelector("#app"));
