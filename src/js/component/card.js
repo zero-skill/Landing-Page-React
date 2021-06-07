@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-export function Card(props) {
+function Card(props) {
 	return (
 		<div className="card col-3" style={{ width: "18rem" }}>
 			<img src={props.imgUrl} className="card-img-top mt-3" alt="..." />
@@ -21,3 +21,5 @@ Card.propTypes = {
 	link: PropTypes.string,
 	textLink: PropTypes.string
 };
+
+export default Card;
