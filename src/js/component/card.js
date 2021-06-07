@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 function Card(props) {
 	return (
-		<div className="card col-3" style={{ width: "18rem" }}>
+		<div className="card col-md-3 col-sm-12" style={{ width: "18rem" }}>
 			<img src={props.imgUrl} className="card-img-top mt-3" alt="..." />
 			<div className="card-body">
 				<h5 className="card-title">{props.title}</h5>
