@@ -10,9 +10,9 @@ import "bootstrap";
 //include your index.scss file into the bundle
 import "../styles/index.scss";
 //import your own components
-import { Jumbotron } from "./component/jumbotron.js";
+import Jumbotron from "./component/jumbotron.js";
 import { Navbar } from "./component/navbar.js";
-import { Footer } from "./component/footer.js";
+import Footer from "./component/footer.js";
 
 import { Card } from "./component/card.js";
 
@@ -20,6 +20,7 @@ const App = () => {
 	return (
 		<>
 			<Navbar />
+			<Jumbotron></Jumbotron>
 			<div className="container">
 				<div className="row">
 					{/*Este div para almacenar las cartas*/}
@@ -53,6 +54,7 @@ const App = () => {
 					/>
 				</div>
 			</div>
+			<Footer></Footer>
 		</>
 	);
 };
